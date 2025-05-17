@@ -13,7 +13,7 @@ function calcular(a, b, op) {
 
   switch (op) {
     case '+':
-      //return `Resultado: ${a + b}`;
+      return `Resultado: ${a + b}`;
     case '-':
 
     case '*':
