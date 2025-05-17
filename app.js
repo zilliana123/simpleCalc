@@ -17,7 +17,7 @@ function calcular(a, b, op) {
     case '-':
 
     case '*':
-        
+        return a * b;//Multiplicação
     case '/':
       return b === 0 ? 'Erro: divisão por zero!' : `Resultado: ${a / b}`;
     default:
