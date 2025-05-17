@@ -15,7 +15,7 @@ function calcular(a, b, op) {
     case '+':
       //return `Resultado: ${a + b}`;
     case '-':
-
+      return `Resultado: ${a - b}`;
     case '*':
         
     case '/':
